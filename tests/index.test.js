@@ -1,11 +1,11 @@
-import { foo } from '../src';
+import { welcome } from '../src';
 
-describe('foo', () => {
+describe('welcome', () => {
 	it('should exist', () => {
-		expect(foo).toBeDefined();
+		expect(welcome).toBeDefined();
 	});
 
-	it('should return foo', () => {
-		expect(foo()).toBe('foo');
+	it('should return a welcome message', () => {
+		expect(welcome()).toBe('Enjoy this examples of design patterns');
 	});
 });
