@@ -1,8 +1,8 @@
-/*
-	Singleton.
-	Singleton es un patrón de diseño creacional que nos permite asegurarnos que sólo existe una instancia de una determinada clase.
-	Útil para inicializar la configuración de un proyecto.
-*/
+/**
+ * Singleton.
+ *
+ * Singleton es un patrón de diseño creacional que nos permite asegurarnos que sólo existe una instancia de una determinada clase.
+ */
 
 import config from './configData.json';
 

@@ -8,14 +8,15 @@ https://refactoring.guru/es/design-patterns
 Patrones de diseño creacionales:  
 
 * Singleton
-* Abstract Factory
 * Factory Method
+* Abstract Factory
 
 Patrones de diseño estructurales:  
 
 * Adapter
 * Decorator
 * Proxy
+* Facade
 
 Patrones de comportamiento:  
 
