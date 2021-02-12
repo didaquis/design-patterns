@@ -1,6 +1,29 @@
-# 🧰 Simple TypeScript Starter
+# design-patterns
 
-This repos is a fork of: https://github.com/stemmlerjs/simple-typescript-starter  (more details here: https://khalilstemmler.com/blogs/typescript/node-starter-project/)
+Examples of some design patterns using TypeScript. 
+https://www.youtube.com/watch?v=Yk5TXytE-gs&list=PL9prAn3zOWZ4slyDs5y7VOxhb_Sc04ShD
+
+https://refactoring.guru/es/design-patterns
+
+Patrones de diseño creacionales:  
+
+* Singleton
+* Abstract Factory
+* Factory Method
+
+Patrones de diseño estructurales:  
+
+* Adapter
+* Decorator
+* Proxy
+
+Patrones de comportamiento:  
+
+* Command
+* Observer
+* Strategy
+
+---------------  
 
 
 ### Requirements
