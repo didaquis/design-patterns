@@ -9,7 +9,6 @@ let order;
 describe('Order using Mastercard', () => {
 	beforeEach(() => {
 		order = new Order(PaymentType.Mastercard, 100);
-		order.create();
 	});
 
 	it('should be paid using mastercard', () => {
@@ -24,7 +23,6 @@ describe('Order using Mastercard', () => {
 describe('Order using PayPal', () => {
 	beforeEach(() => {
 		order = new Order(PaymentType.PayPal, 100);
-		order.create();
 	});
 
 	it('should be paid using paypal', () => {

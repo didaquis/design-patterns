@@ -9,16 +9,18 @@ import PaymentMethodInterface from './Factory/PaymentMethodInterface';
 import PaymentMethodFactory from './Factory/PaymentMethodFactory';
 
 export default class Order {
-	public paymentType?: PaymentMethodInterface;
+	public paymentType: PaymentMethodInterface;
 	public commission = 0;
 
-	constructor(private type: PaymentType, public amount: number) {}
-
-	public create(): void {
+	//constructor(private type: PaymentType, public amount: number) {}
+	constructor(private type: PaymentType, public amount: number) {
 		// set payment type
 		this.paymentType = PaymentMethodFactory.getInstanceOfPaymentType(this.type);
 
-		// calculate commission
+		this.calculateCommission();
+	}
+
+	private calculateCommission(): void {
 		this.commission = this.paymentType.comission * this.amount;
 	}
 }
