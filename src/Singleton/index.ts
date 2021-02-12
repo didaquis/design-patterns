@@ -6,7 +6,7 @@
 
 import config from './configData.json';
 
-export default class AppConfiguration {
+export class AppConfiguration {
 	private static instance: AppConfiguration;
 
 	private static _environment: string;
@@ -18,10 +18,10 @@ export default class AppConfiguration {
 
 	// Use this method as a constructor
 	private static initialize(): void {
-		this._environment = config.environment;
 		this._apiUrl = config.apiUrl;
 	}
 
+	// Implement the singleton behaviour
 	public static getInstance(): AppConfiguration {
 		if (!this.instance) {
 			this.initialize();
@@ -31,10 +31,7 @@ export default class AppConfiguration {
 		return this.instance;
 	}
 
-	public get environment(): string {
-		return AppConfiguration._environment;
-	}
-
+	// Define some public getters
 	public get apiUrl(): string {
 		return AppConfiguration._apiUrl;
 	}
@@ -42,6 +39,6 @@ export default class AppConfiguration {
 
 /**
  * Example of use:
- * 	const configuration = AppConfiguration.getInstance(); // You can not use the word "new"
+ * 	const configuration = AppConfiguration.getInstance();
  * 	configuration.apiURL; // 'https://api.example.com/'
  */
