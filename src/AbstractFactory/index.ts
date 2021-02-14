@@ -6,7 +6,7 @@
  * Utiliza el patrón Abstract Factory cuando tu código deba funcionar con varias familias de clases relacionadas entre si.
  */
 
-import AbstractFactoryInterface from './AbstractFactoryInterface'
+import AbstractFactoryInterface from './AbstractFactoryInterface';
 
 export default class PublishOnMedia {
 	constructor(private content: string) {}
