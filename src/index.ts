@@ -3,3 +3,4 @@ import './FactoryMethod';
 import './AbstractFactory';
 import './Facade';
 import './Adapter';
+import './Decorator';
