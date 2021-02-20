@@ -22,7 +22,7 @@ const basicEnemyWithHelmet = new HelmetDecorator(basicEnemy);
 const basicEnemyWithHelmetAndArmour = new ArmourDecorator(basicEnemyWithHelmet);
 
 // Finalmente queremos calcular el daño.
-basicEnemyWithHelmetAndArmour.takeDamage(); // 1.6666666666666667
+basicEnemyWithHelmetAndArmour.takeDamage(); // 1.25
 
 /**
  * Extra:
@@ -32,6 +32,5 @@ basicEnemyWithHelmetAndArmour.takeDamage(); // 1.6666666666666667
 const bossEnemy = new BaseBossEnemy();
 const bossEnemyWithHelmet = new HelmetDecorator(bossEnemy);
 const bossEnemyWithHelmetAndArmour = new ArmourDecorator(bossEnemyWithHelmet);
-
-bossEnemyWithHelmetAndArmour.takeDamage(); // 0.3333333333333333
+bossEnemyWithHelmetAndArmour.takeDamage(); // 0.25
 // Como ves, podríamos tener un conjunto de entidades y un conjunto de decoradores. Esto permitiría poder aplicar cualquier números de decoradores (inlcuso ninguno) a cada uno de esos entidades para alterar su comportamiento.
