@@ -4,3 +4,4 @@ import './AbstractFactory';
 import './Facade';
 import './Adapter';
 import './Decorator';
+import './Proxy';
