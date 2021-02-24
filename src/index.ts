@@ -6,3 +6,4 @@ import './Adapter';
 import './Decorator';
 import './Proxy';
 import './Strategy';
+import './Observer';
