@@ -1,3 +1,9 @@
+/**
+ * Observer.
+ *
+ * Observer es un patrón de diseño de comportamiento que te permite definir un mecanismo de suscripción para notificar a uno o varios clientes sobre cualquier evento que le suceda al objeto que están observando.
+ */
+
 import { YouTubeChannel } from './publishers/YouTubeChannel';
 import { Subscriber } from './subscribers/Subscriber';
 
