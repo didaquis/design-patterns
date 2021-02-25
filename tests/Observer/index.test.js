@@ -1,8 +1,7 @@
-import { isMainThread } from 'worker_threads';
 import { YouTubeChannel } from '../../src/Observer/publishers/YouTubeChannel';
 import { Subscriber } from '../../src/Observer/subscribers/Subscriber';
 
-describe ('Observer', () => {
+describe('Observer', () => {
 	let loggerFunction;
 
 	beforeEach(() => {

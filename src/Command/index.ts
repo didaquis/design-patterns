@@ -8,7 +8,7 @@
 // import { CulquiCommand } from './paymentTypes/Culqui';
 // import { CreditCardDTO } from './dto/CreditCardDTO';
 // import { MercadoPagoCommand } from './paymentTypes/MercadoPago';
-// import { PayUCommand } from './paymentTypes/Payu';
+// import { PayUCommand } from './paymentTypes/PayU';
 
 // const creditCard = new CreditCardDTO('marstercard', 'John Doe', 'xxxx-xxxx-xxxx-xxxx', 'xxx', 300.0);
 

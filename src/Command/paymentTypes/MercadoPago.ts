@@ -9,5 +9,7 @@ export class MercadoPagoCommand implements CommandInterface {
 	handle(): void {
 		console.log(`${this.providerName} has been triggered...`);
 		// Your code goes here! Add all necessary logic (connect to service, process the payment and so on...)
+
+		console.log(`Successful payment with ${this.providerName}`);
 	}
 }
