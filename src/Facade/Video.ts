@@ -14,7 +14,6 @@ export default class Video {
 	}
 
 	public setLayout(layout: LAYOUT = LAYOUT.PIP): void {
-		// eslint-disable-next-line no-console
 		console.log(`Set video layout to ${layout}`);
 	}
 

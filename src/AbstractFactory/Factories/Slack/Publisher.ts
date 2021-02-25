@@ -11,9 +11,7 @@ export default class SlackPublisher implements PublisherInterface {
 	publish(content: string): void {
 		// Your logic to publish on Slack
 
-		// eslint-disable-next-line no-console
 		console.log('Slack');
-		// eslint-disable-next-line no-console
 		console.log(content);
 	}
 }

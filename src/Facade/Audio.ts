@@ -18,12 +18,10 @@ export default class Audio {
 	}
 
 	public sendAudio(channel: IN_CHANNEL | null): void {
-		// eslint-disable-next-line no-console
 		console.log(`Sending audio of channel ${channel}`);
 	}
 
 	public receiveAudio(channel: OUT_CHANNEL = OUT_CHANNEL.ONE): void {
-		// eslint-disable-next-line no-console
 		console.log(`Receiving audio from channel ${channel}`);
 	}
 

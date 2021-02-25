@@ -11,9 +11,7 @@ export default class FacebookPublisher implements PublisherInterface {
 	publish(content: string): void {
 		// Your logic to publish on Facebook
 
-		// eslint-disable-next-line no-console
 		console.log('Facebook');
-		// eslint-disable-next-line no-console
 		console.log(content);
 	}
 }
