@@ -7,3 +7,4 @@ import './Decorator';
 import './Proxy';
 import './Strategy';
 import './Observer';
+import './Command';
