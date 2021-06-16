@@ -3,7 +3,9 @@
  *
  * Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables.
  *
- * Útil cuando quieres tener diferentes maneras de loguar (a consola, a un fichero),
+ * Útil cuando quieres tener diferentes maneras de loguear (a consola, a un fichero).
+ *
+ * Truco: podrías intercambiar la estrategia en runtime si añades un método público que acepte una "StrategyInterface" y la asigne a la variable "strategy".
  */
 
 import { StrategyInterface } from './StrategyInterface';
