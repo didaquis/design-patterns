@@ -17,7 +17,8 @@ describe('Observer', () => {
 		const channel = new YouTubeChannel();
 		const user_01 = new Subscriber();
 		const user_02 = new Subscriber();
-		const expectedResult = 'Event received: "Added a new video" with payload: "{"videoTitle":"Tutorial of design patterns"}"';
+		const expectedResult =
+			'Event received: "Added a new video" with payload: "{"videoTitle":"Tutorial of design patterns"}"';
 
 		channel.attach(user_01);
 		channel.attach(user_02);
