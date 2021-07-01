@@ -4,6 +4,7 @@ import './AbstractFactory';
 import './Facade';
 import './Adapter';
 import './Decorator';
+import './DecoratorAlternativeExample';
 import './Proxy';
 import './Strategy';
 import './Observer';
