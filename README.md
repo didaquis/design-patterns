@@ -1,10 +1,11 @@
 # design-patterns
 
 Examples of some design patterns using TypeScript. 
-https://www.youtube.com/watch?v=Yk5TXytE-gs&list=PL9prAn3zOWZ4slyDs5y7VOxhb_Sc04ShD
 
-https://www.youtube.com/playlist?list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8  
-https://refactoring.guru/es/design-patterns
+Some useful links:
+* https://www.youtube.com/watch?v=Yk5TXytE-gs&list=PL9prAn3zOWZ4slyDs5y7VOxhb_Sc04ShD
+* https://www.youtube.com/playlist?list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8
+* https://refactoring.guru/es/design-patterns
 
 Patrones de diseño creacionales:  
 
