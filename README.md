@@ -30,7 +30,7 @@ Patrones de comportamiento:
 
 ### Requirements
 
-Node.js 14 or higher
+Node.js 16 or higher
 
 
 ### Scripts

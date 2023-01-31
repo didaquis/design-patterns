@@ -13,7 +13,9 @@ export class PaymentMethodHandler {
 				cmd.handle();
 				break;
 			} catch (error) {
-				console.log(`ERROR: ${error.message}`);
+				if (error instanceof Error) {
+					console.log(`ERROR: ${error.message}`);
+				}
 			}
 		}
 	}
