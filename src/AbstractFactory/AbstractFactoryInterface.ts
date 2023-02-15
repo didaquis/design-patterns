@@ -2,7 +2,7 @@ import ConnectorInterface from './Factories/ConnectorInterface';
 import PublisherInterface from './Factories/PublisherInterface';
 
 /**
- * Todas las fcatorías deberan implementar estas interfaces. Esto permitirá que las factorías sean intercambiables entre ellas.
+ * Todas las factorías deberan implementar estas interfaces. Esto permitirá que las factorías sean intercambiables entre ellas.
  */
 
 export default interface AbstractFactoryInterface {
