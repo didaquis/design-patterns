@@ -3,9 +3,12 @@
  *
  * Decorator es un patrón de diseño estructural que te permite añadir funcionalidades a objetos colocando estos objetos dentro de objetos encapsuladores especiales que contienen estas funcionalidades.
  *
- * Útil para añadir capas de comportamiento a objetos como si fueran las capas de una cebolla. Es decir, nos permite extender el comportamiento de manera dinámica. En este ejemplo, podemos aplicar diferentes decoradores (protecciones) a diferentes entidades (enemigos) para calcular el daño que recibirían al sufrir un ataque. Cada decorador implementar un comportamiento que se aplica junto al resto de decoradores.
+ * Útil para añadir capas de comportamiento a objetos como si fueran las capas de una cebolla. Es decir, nos permite extender el comportamiento de manera dinámica. En este ejemplo, podemos aplicar diferentes decoradores (protecciones) a diferentes entidades (enemigos) para calcular el daño que recibirían al sufrir un ataque. Cada decorador implementa un comportamiento que se aplica junto al resto de decoradores.
  *
  * Ten en cuenta que el orden en que se aplican los decoradores afecta al resultado. Los decoradores se resolverán en orden inverso. Es decir, el ultimo decorador aplicado es el primero que se va a ejecutar.
+ *
+ * El patrón Decorator te permite cambiar la piel de un objeto, mientras que Strategy te permite cambiar sus entrañas.
+ * Adapter proporciona una interfaz diferente al objeto envuelto, Proxy le proporciona la misma interfaz y Decorator le proporciona una interfaz mejorada.
  */
 
 import BaseBasicEnemy from './baseClasses/BaseBasicEnemy';
